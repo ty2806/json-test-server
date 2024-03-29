@@ -2,7 +2,7 @@
   "user": {
     "name": "Jane Doe",
     "age": 28,
-    "is_active": False,
+    "is_active": true,
     "contact_info": {
       "email": "jane.doe@example.com",
       "phone_numbers": ["123-456-7890", "987-654-3210"]
