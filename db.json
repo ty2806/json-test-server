@@ -1,11 +1,42 @@
 {
-  "posts": [
+  "user": {
+    "name": "Jane Doe",
+    "age": 28,
+    "is_active": False,
+    "contact_info": {
+      "email": "jane.doe@example.com",
+      "phone_numbers": ["123-456-7890", "987-654-3210"]
+    },
+    "roles": ["editor", "contributor"]
+  },
+  "projects": [
     {
       "id": 1,
-      "title": "hello"
+      "name": "Project Alpha",
+      "status": "completed",
+      "team_members": [
+        {"id": 2, "name": "John Doe", "role": "developer"},
+        {"id": 3, "name": "Emily White", "role": "designer"}
+      ],
+      "start_date": "2023-01-15",
+      "end_date": "2023-06-30"
+    },
+    {
+      "id": 2,
+      "name": "Project Beta",
+      "status": "in progress",
+      "team_members": [
+        {"id": 4, "name": "Chris Green", "role": "project manager"},
+        {"id": 5, "name": "Sarah Brown", "role": "developer"},
+        {"id": 6, "name": "Alex Blue", "role": "QA"}
+      ],
+      "start_date": "2023-07-01",
+      "end_date": null
     }
   ],
-  "profile": {
-    "name": "typicode"
+  "settings": {
+    "notifications": {"email": true, "sms": false, "push": true},
+    "theme": "dark",
+    "language": "en-US"
   }
 }
